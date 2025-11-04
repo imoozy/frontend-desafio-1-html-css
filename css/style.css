@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(135deg, #4b79a1, #283e51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.card{
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    width: 320;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img{
+    width: 120px;
+    border-radius: 450%;
+    margin-bottom: 1rem;
+}
+
+.links a{
+    display: inline-block;
+    margin: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4b79a1;
+    transition: background 0.3s;
+}
+
+.links a:hover {
+    background-color: #283e51;
+}
